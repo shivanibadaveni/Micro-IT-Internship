@@ -1,0 +1,24 @@
+# Requirements for optimized Python applications
+# Core Python modules used (all part of standard library):
+
+# Standard library modules - no external dependencies required:
+# - secrets (cryptographically secure random generation)
+# - string (character sets for password generation)  
+# - json (data persistence)
+# - os (file system operations)
+# - typing (type hints)
+# - dataclasses (structured data)
+# - time (performance benchmarking)
+# - statistics (benchmark analysis)
+# - tempfile (temporary file handling)
+# - random (test data generation)
+
+# Optional dependencies for enhanced development:
+pytest>=7.0.0          # For unit testing
+black>=22.0.0           # Code formatting
+mypy>=1.0.0             # Type checking
+flake8>=5.0.0           # Linting
+memory-profiler>=0.60.0 # Memory usage profiling
+
+# For production monitoring (optional):
+psutil>=5.9.0           # System resource monitoring
